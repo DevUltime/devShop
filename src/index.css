@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@theme {
+  --color-purple: #7659bd;
+  --color-white: #f8f8f8;
+  --color-dark: #030303;
+}
+@layer base {
+  body {
+    background-color: #e2e1e8;
+    font-family: roboto, "Courier New", Courier, monospace;
+    color: var(--primary-dark);
+  }
+  a {
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  h2 {
+    color: var(--color-purple);
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
+@layer component {
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    background-color: var(--color-purple);
+    color: var(--color-white);
+    padding: 7px 20px;
+    border-radius: 9999px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: opacity 0.2s ease-out;
+    width: fit-content;
+  }
+  .btn:hover {
+    opacity: 0.7;
+  }
+  .hero {
+    background-image: url("/src/assets/imgs/bg-gradient.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .text-animate {
+    color: var(--color-purple);
+  }
+  .card {
+  }
+  .swiper {
+    --swiper-theme-color: var(--color-purple);
+  }
+
+}
