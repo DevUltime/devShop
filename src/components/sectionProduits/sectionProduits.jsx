@@ -1,7 +1,7 @@
 import { CategoryCard } from "./categorieCard/categorieCard";
 
 // Images Électronique
-import coverlaptop from "/src/assets/coverProduits/electronique/coverlaptop.png";
+import coverlaptop from "/src/assets/coverProduits/electronique/coverLaptop.png";
 import coverCasque from "/src/assets/coverProduits/electronique/coverCasque.png";
 import coverClavier from "/src/assets/coverProduits/electronique/coverClavier.png";
 import coverSouris from "/src/assets/coverProduits/electronique/coverSouris.png";
